@@ -1,0 +1,194 @@
+<!--created by Hongyan Ji-->
+<!DOCTYPE html>
+<!--HTML5 doctype-->
+<html lang="en-US">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Receipts</title>
+  <link rel="stylesheet" href="styles.css" type="text/css">
+</head>
+  <!--global header-->
+  <header>
+    <h1>My Favorite Recepits</h1>
+
+    <!--Navigation can be on its own or within the header element-->
+    <nav>
+      <ol>
+        <h2 id="list">List of recepits</h2>
+        <li><a href="#mapo">Mapo tofu</a></li>
+        <li><a href="#toma">Stir-fried tomato and scrambled eggs</a></li>
+        <li><a href="#win">Winter melon soup</a></li>
+      </ol>
+    </nav>
+  </header>
+
+  <!--The main content starts here-->
+  <main>
+
+    <!--Mapo tofu is within an article element because this content can make sense on its own-->
+    <article id="mapo">
+      <h2>Mapo tofu</h2>
+      <img src="http://www.pbs.org/food/wp-content/blogs.dir/2/files/2011/10/mapo-doufu-31.jpg" alt="" title="Resized image seems to fit the page better">
+      <p>Mapo tofu is a popular Chinese dish from Sichuan province. It consists of tofu set in a spicy sauce, typically a thin, oily, and bright red suspension, based on douban and douchi, along with minced meat, traditionally beef. For more information
+        in a <a href="https://en.wikipedia.org/wiki/Mapo_doufu" target="_blank">new window.</a></p>
+      <!--show Ingredents and steps using the details and summary elements. Expand to show content. -->
+      <details>
+        <summary>Ingredents</summary>
+        <!--add table to show the ingredents and amount-->
+        <table>
+          <tr>
+            <td class="ingredents">ground beef</td>
+            <td class="amount">120g</td>
+          </tr>
+          <tr>
+            <td class="ingredents">tofu</td>
+            <td class="amount">one</td>
+          </tr>
+          <tr>
+            <td class="ingredents">green onions and fresh ginger</td>
+            <td class="amount">one</td>
+          </tr>
+          <tr>
+            <td class="ingredents">sichuan pepper and red chilies</td>
+            <td class="amount">some</td>
+          </tr>
+          <tr>
+            <td class="ingredents">vegetable oil, cooking wine, soy sacue</td>
+            <td class="amount">some</td>
+          </tr>
+          <tr>
+            <td class="ingredents">salt</td>
+            <td class="amount">little</td>
+          </tr>
+        </table>
+      </details>
+      <details>
+        <summary>Steps</summary>
+        <ol>
+          <li>Combine ground beef, cooking wine, soy sauce, and ginger in a bowl. Mix well.</li>
+          <li>Heat vegetable oil and sichuan pepper in a large nonstick skillet over medium high heat.</li>
+          <li>When oil is hot, add ground beef for two minute, then add green onion and stir fry for another minute.</li>
+          <li>Spread tofu evenly on top of ground beef.Gently mix well with dried red chilies.</li>
+          <li>Gently stir a few times with a cornstarch water, until sauce thickens. Turn off heat and transfer everything to a bowl. Cover with green onion leaves.</li>
+          <li>Serve warm over steamed rice or by itself as main.</li>
+        </ol>
+      </details>
+    </article>
+
+    <!--Stir-fried tomato and scrambled eggs is within an article element because this content can make sense on its own-->
+    <article id="toma">
+      <h2>Stir-fried tomato and scrambled eggs</h2>
+      <image src="https://www.seriouseats.com/images/2012/06/20120629-chichis-chinese-tomato-egg-post.jpg" alt="" title="Resized image seems to fit the page better">
+        <p>Stir-fried tomato and scrambled eggs is a common dish in China. It is served as a main course. Because of its simplicity to prepare, it is popular to be served in student canteens as well. For more information in a <a href="https://en.wikipedia.org/wiki/Stir-fried_tomato_and_scrambled_eggs"
+            target="_blank">new window.</a></p>
+        <!--show Ingredents and steps using the details and summary elements. Expand to show content. -->
+        <details>
+          <summary>Ingredents</summary>
+          <table>
+            <tr>
+              <td class="ingredents">eggs</td>
+              <td class="amount">2</td>
+            </tr>
+            <tr>
+              <td class="ingredents">tomatoes</td>
+              <td class="amount">4</td>
+            </tr>
+            <tr>
+              <td class="ingredents">green onion</td>
+              <td class="amount">one</td>
+            </tr>
+            <tr>
+              <td class="ingredents">vegetable oil</td>
+              <td class="amount">some</td>
+            </tr>
+            <tr>
+              <td class="ingredents">salt</td>
+              <td class="amount">little</td>
+            </tr>
+          </table>
+        </details>
+        <details>
+          <summary>Steps</summary>
+          <ol>
+            <li>Scramble eggs in a bowl with green onion, and slice tomatoes into wedges.</li>
+            <li>Heat vegetable oil and fries the eggs in medium heat for 2 minutes.</li>
+            <li>Add sliced tomatoes to the eggs for 5 minute.</li>
+            <li>Gently mix well with salt for a minutes.</li>
+            <li>Turn off heat and transfer everything to a bowl. Cover with green onion leaves.</li>
+            <li>Serve warm over steamed rice or by itself as main.</li>
+          </ol>
+        </details>
+    </article>
+
+    <!--Winter melon soup is within an article element because this content can make sense on its own-->
+    <article id="win">
+      <h2>Winter melon soup</h2>
+      <image src="http://sandys.kitchen/wp-content/uploads/2017/03/DSC00723-copy-1.jpg" alt="Example image for winter melon soup" title="Resized image seems to fit the page better">
+        <p>Winter melon also known as Ash Gourd is quite popular in China. For more information in a <a href="https://en.wikipedia.org/wiki/Wax_gourd" target="_blank">new window.</a></p>
+        <!--show Ingredents and steps using the details and summary elements. Expand to show content. -->
+        <details>
+          <summary>Ingredents</summary>
+          <table>
+            <tr>
+              <td class="ingredents">winter melon</td>
+              <td class="amount">1 pound</td>
+            </tr>
+            <tr>
+              <td class="ingredents">pork rib</td>
+              <td class="amount">1 pound</td>
+            </tr>
+            <tr>
+              <td class="ingredents">green onion</td>
+              <td class="amount">one</td>
+            </tr>
+            <tr>
+              <td class="ingredents">vegetable oil</td>
+              <td class="amount">some</td>
+            </tr>
+            <tr>
+              <td class="ingredents">salt</td>
+              <td class="amount">little</td>
+            </tr>
+          </table>
+        </details>
+        <details>
+          <summary>Steps</summary>
+          <ol>
+            <li>Boil water with pork rib for 1 minutes, cool down pork rib with cold water afterwards.</li>
+            <li>Boil water with winter melon.</li>
+            <li>Add salt.</li>
+            <li>Add pork rib for 1 hour.</li>
+            <li>Turn off heat and transfer everything to a bowl. Cover with green onion leaves.</li>
+            <li>Serve warm over steamed rice or by itself as main.</li>
+          </ol>
+        </details>
+    </article>
+  </main>
+
+  <!--global footer, specify copyright, author, contact info and a footer navigation bar-->
+  <footer>
+    <p>Copyrights information...</p>
+    <!--show author(s) and contact details using the details and summary elements. Expand to show content. -->
+    <details>
+      <summary>Authors</summary>
+      <p>Hongyan Ji</p>
+    </details>
+    <details>
+      <summary>Contact</summary>
+      <!--Using nav within summary element-->
+      <nav>
+        <!--Styling has been added to make nav menu in a horizontal row-->
+        <ul style="margin: 0; padding: 0; list-style-type: none;">
+          <li style="display: inline;"><a href="mailto:receipts@gmail.com" style="text-decoration: none; padding: .2em 1em;">email</a></li>
+          <li style="display: inline;"><a href="https://www.linkedin.com/" target="_blank" style="text-decoration: none; padding: .2em 1em;">Linkedin</a></li>
+          <li style="display: inline;"><a href="https://www.facebook.com/" target="_blank" style="text-decoration: none; padding: .2em 1em;">facebook</a></li>
+          <li style="display: inline;"><a href="https://github.com/" target="_blank" style="text-decoration: none; padding: .2em 1em;">GitHub</a></li>
+        </ul>
+      </nav>
+    </details>
+  </footer>
+
+</body>
+
+</html>
